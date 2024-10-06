@@ -27,7 +27,7 @@ const TopNav = () => {
             <SidebarToggle />
             <Navbar.Brand className="navbar-brand pe-3 ps-4 ps-lg-2">
                 <Link to="/" className="navbar-brand">
-                    Intranet
+                    <i className="fa-solid fa-network-wired"></i>&nbsp;Intranet
                 </Link>
             </Navbar.Brand>
             <Navbar.Collapse className="topnav navbar navbar-expand justify-content-between justify-content-sm-start navbar-light bg-white" id="sidenavAccordion">
